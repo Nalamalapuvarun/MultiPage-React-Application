@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0dc7c9c4acc895d4dc5b22fd72230e3",
+    "revision": "36382e4a31105d78506c58ab67d788a7",
     "url": "/MultiPage-React-Application/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MultiPage-React-Application/static/js/2.fafa878b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d82090982a9bce225306",
-    "url": "/MultiPage-React-Application/static/js/main.8f160504.chunk.js"
+    "revision": "1c72daff8abfc4af9e64",
+    "url": "/MultiPage-React-Application/static/js/main.54901d57.chunk.js"
   },
   {
     "revision": "452394636b65ea90a8ac",
