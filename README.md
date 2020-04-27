@@ -1,5 +1,7 @@
 ### About Project
 
+View the application at https://nalamalapuvarun.github.io/MultiPage-React-Application/
+
 This is a Multi Page React application which uses react-router dependency to navigate among pages. This application allows us to Create or Update Courses and interact with a Mock API to update the database accordingly. It also reads the courses from the database and displays it in a table.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
