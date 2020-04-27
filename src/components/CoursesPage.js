@@ -6,8 +6,17 @@ import { Link } from "react-router-dom";
 function CoursesPage() {
   const [courses, setCourses] = useState([]);
 
+  const courseValues = [
+    {
+      title: "Title1",
+      id: 1,
+      authorId: "Author 1",
+      category: "Category 1",
+    },
+  ];
+
   useEffect(() => {
-    getCourses().then(_courses => setCourses(_courses));
+    getCourses().then((_courses) => setCourses(_courses));
   }, []);
 
   return (
@@ -16,7 +25,7 @@ function CoursesPage() {
       <Link className="btn btn-primary" to="/course">
         Add Course
       </Link>
-      <CourseList courses={courses} />
+      <CourseList courses={courseValues} />
     </>
   );
 }
