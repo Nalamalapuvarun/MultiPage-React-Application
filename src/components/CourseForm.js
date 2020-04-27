@@ -25,8 +25,8 @@ function CourseForm(props) {
             className="form-control"
           >
             <option value="" />
-            <option value="1">Cory House</option>
-            <option value="2">Scott Allen</option>
+            <option value="1">Author 1</option>
+            <option value="2">Author 2</option>
           </select>
         </div>
         {props.errors.authorId && (
@@ -52,7 +52,7 @@ CourseForm.propTypes = {
   course: PropTypes.object.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
-  errors: PropTypes.object.isRequired
+  errors: PropTypes.object.isRequired,
 };
 
 export default CourseForm;
